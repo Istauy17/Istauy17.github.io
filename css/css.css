@@ -1,0 +1,344 @@
+
+.navbar
+{
+background: #086ca2;
+}
+.footer{
+	padding:70em 0 0 0;
+	text-align:center;
+	border-top:10px solid #3c3a3e;
+     display: block;
+}
+ul.social{
+	padding:0;
+	margin:1em 0 0.5em 0;
+}
+ul.social li{
+	display:inline-block;
+	margin:0 5px;
+}
+ul.social li i{
+	width:70px;
+	height:70px;
+	background:url(../images/social-icons.png)no-repeat;
+	display:inline-block;
+	cursor:pointer;
+}
+ul.social li i:hover{
+	opacity:0.5;
+}
+ul.social li i.fa{
+	background-position:0px 0px;
+}
+ul.social li i.fb{
+	background-position:-70px 0px;
+}
+ul.social li i.fc{
+	background-position:-142px 0px;
+}
+.footer p{
+	font-size:0.85em;
+	color:#3c3a3e;
+	font-weight:100;
+}
+.footer p a{
+	color:#ff7105;
+}
+.footer p a:hover{
+	color:#4fbfa8;
+}
+
+.banner {
+    background: url(../images/games-overwatch-reaper-1695.jpg)no-repeat;
+    background-size: 90%;
+    -webkit-background-size: 100%;
+    -o-background-size: 100%;
+    -moz-background-size: 100%;
+    -ms-background-size: 100%;
+  height: 500px;
+  margin-top: 50px;
+    
+}
+
+
+.cont
+{
+
+margin-top: 90px;
+
+}
+
+@media (min-width:1020px) and (max-width: 1424px)
+{
+    .banner
+    {
+    height: 370px;
+    min-width: 100%;
+    }
+
+    .clock
+{
+padding-right: 190px;
+    
+
+}
+.Pirrat
+{
+width: 680px;
+height: 420px;
+
+}
+.rojer{ padding-top: 30px;
+    width: 100%;
+height: 520px;
+}
+
+.footer{padding-top:2500px; }
+.footer2{padding-top:20px;}
+}
+
+
+
+
+@media (min-width:320px) and (max-width: 1023px)
+{
+	.banner
+	{
+    height: 370px;
+    min-width: 100%;
+	}
+
+    .clock
+{
+padding-right: 190px;
+    
+
+}
+.Pirrat
+{
+width: 380px;
+height: 220px;
+
+}
+.rojer{ padding-top: 50px;
+    width: 100%;
+height: 320px;
+}
+.footer2{padding-top:20px;}
+}
+
+
+
+
+
+@media (min-width:2049px) and (max-width: 4096px)
+{
+	.banner 
+	{
+    height: 970px;
+    min-width: 100%;
+	}
+
+    .clock
+{
+padding-left: 1710px;
+    
+
+}
+.Pirrat
+{
+width: 1280px;
+height: 720px;
+
+}
+.rojer{ padding-top: 30px;
+    width: 100%;
+height: 1420px;
+}
+.footer{padding-top:2000px; }
+.footer2{padding-top:20px;}
+
+}
+
+
+
+.Dclock
+{
+    padding-top: 100px;
+}
+
+#CDT {
+    font-size: 27px;
+    color: #eee;
+    margin: 70px 0 100px;
+    font-weight: bold;
+    width: 400px;
+    
+}
+
+#CDT .number-wrapper {
+    margin: 10px;
+    -moz-box-shadow: 0 5px 8px #000000;
+    -webkit-box-shadow: 0 5px 8px #000000;
+    box-shadow: 0 5px 8px #000000;
+    position: relative;
+
+}
+
+#CDT .number {
+    display: inline-block;
+    *display: inline;
+    *zoom: 1;
+    background: #000;
+    background-image: linear-gradient(bottom, #000000 2%, #3c3c3c 50%, #000000 100%);
+    background-image: -o-linear-gradient(bottom, #000000 2%, #3c3c3c 50%, #000000 100%);
+    background-image: -moz-linear-gradient(bottom, #000000 2%, #3c3c3c 50%, #000000 100%);
+    background-image: -webkit-linear-gradient(bottom, #000000 2%, #3c3c3c 50%, #000000 100%);
+    background-image: -ms-linear-gradient(bottom, #000000 2%, #3c3c3c 50%, #000000 100%);
+    -webkit-border-top-right-radius: 7px;
+    -webkit-border-bottom-right-radius: 0;
+    -webkit-border-bottom-left-radius: 0;
+    -webkit-border-top-left-radius: 0;
+    -moz-border-radius-topright: 7px;
+    -moz-border-radius-bottomright: 0;
+    -moz-border-radius-bottomleft: 0;
+    -moz-border-radius-topleft: 0;
+    border-top-right-radius: 7px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+    border-top-left-radius: 0;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    border-radius: 7px;
+    -moz-background-clip: padding;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    padding: 0 12px;
+    height: 80px;
+    line-height: 80px;
+    text-align: center;
+    border: 1px solid #555;
+    -moz-box-shadow: inset 0 4px 0 rgba(255, 255, 255, 0.2);
+    -webkit-box-shadow: inset 0 4px 0 rgba(255, 255, 255, 0.2);
+    box-shadow: inset 0 4px 0 rgba(255, 255, 255, 0.2);
+    -moz-text-shadow: 0 3px 3px #000000;
+    -webkit-text-shadow: 0 3px 3px #000000;
+    text-shadow: 0 3px 3px #000000;
+}
+       
+#CDT .line {
+    position: absolute;
+    width: 100%;
+    height: 1px;
+    top: 52%;
+    left: 0;
+    background: #000;
+    -moz-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.2);
+    -webkit-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.2);
+    box-shadow: 0 1px 0 rgba(255, 255, 255, 0.2);
+}
+       
+.caption {
+   font-size: 12px;
+   position: absolute;
+   bottom: -50px;
+   left: 0;
+   text-align: center;
+   width: 100%;
+   color: #777;
+}
+
+
+div {
+    display: block;
+}
+.banner-bot {
+    padding: 4em 0;
+    text-align: center;
+}
+#h1{
+    font-weight: 500;
+    font-size: 90px;
+}
+
+.Borderlands
+{
+ float: left;
+ margin-top: 20px;
+padding-left: 20px;
+padding-right:  20px;
+}
+
+.Metro
+{
+ float: left;
+ margin-top: 20px;
+padding-left: 20px;
+padding-right:  20px;
+}
+.Stalker
+{
+ float: left;
+ margin-top: 20px;
+padding-left: 20px;
+padding-right:  20px;
+    
+}
+.TotalWar
+{
+
+     float: left;
+ margin-top: 20px;
+padding-left: 20px;
+padding-right:  20px;
+}
+.dgw{ padding-top: 50px;}
+
+
+
+
+
+.footer2{
+    padding:3em 0 0 0;
+    text-align:center;
+    border-top:10px solid #3c3a3e;
+     display: block;
+}
+ul.social2{
+    padding:0;
+    margin:1em 0 0.5em 0;
+}
+ul.social2 li{
+    display:inline-block;
+    margin:0 5px;
+}
+ul.social2 li i{
+    width:70px;
+    height:70px;
+    background:url(../images/social-icons.png)no-repeat;
+    display:inline-block;
+    cursor:pointer;
+}
+ul.social2 li i:hover{
+    opacity:0.5;
+}
+ul.social2 li i.fa2{
+    background-position:0px 0px;
+}
+ul.social2 li i.fb2{
+    background-position:-70px 0px;
+}
+ul.social2 li i.fc2{
+    background-position:-142px 0px;
+}
+.footer2 p{
+    font-size:0.85em;
+    color:#3c3a3e;
+    font-weight:100;
+}
+.footer2 p a{
+    color:#ff7105;
+}
+.footer2 p a:hover{
+    color:#4fbfa8;
+}

@@ -67,6 +67,40 @@ margin-top: 90px;
 
 }
 
+
+
+@media (min-width:1080px) and (max-width: 1996px)
+{
+	.banner 
+	{
+    height: 970px;
+    min-width: 100%;
+	}
+
+    .clock
+{
+padding-left: 1710px;
+    
+
+}
+.Pirrat
+{
+width: 1280px;
+height: 720px;
+
+}
+.rojer{ padding-top: 30px;
+    width: 100%;
+height: 620px;
+}
+.footer{padding-top:2000px; }
+.footer2{padding-top:20px;}
+
+}
+
+
+
+
 @media (min-width:1020px) and (max-width: 1424px)
 {
     .banner
